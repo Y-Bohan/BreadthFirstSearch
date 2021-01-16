@@ -82,7 +82,7 @@ bool Graph::connected(int v, int w)
 		if (*it == w)		//说明v的邻接表中有w，两点之间有边
 			return true;
 	}
-	return false;		//遍历完v的邻接表都没有w，说明两点之间无边
+	return false;		//遍历完v的邻接表都没有w，说明两点之间没有边
 }
 
 Graph::~Graph()
